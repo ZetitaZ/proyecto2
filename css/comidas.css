@@ -1,0 +1,39 @@
+#info 
+{
+	padding:px;
+	background:#333;
+	color:#fff;
+	text-align:center;
+}
+#info .contenedor
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+}
+.info-com
+{
+	margin:20px;	
+}
+.info-com img
+{
+	width:200px;
+	height:*px;
+	border-radius:50%;
+	border:5px solid #fff;
+}
+@media (min-width:768px)
+{
+	.info-com
+	{
+		width:25%;
+	}
+}
+@media (min-width:1024px)
+{
+	.info-com
+	{
+		width:auto;
+	}
+}
